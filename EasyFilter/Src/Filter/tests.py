@@ -96,7 +96,7 @@ class PlayerFormTest(LiveServerTestCase):
 
         submit = selenium.find_element_by_id('filter_button')
 
-        file_name = 'sedat_peker.mp4'
+        file_name = 'uzun_video.mp4'
 
         # forma veri gonderiyoruz
         words.send_keys('open terminal')
@@ -105,4 +105,4 @@ class PlayerFormTest(LiveServerTestCase):
 
         # formu onayliyoruz
         submit.send_keys(Keys.RETURN)
-        assert '400 Inline audio exceeds duration limit. Please use a GCS URI.' in selenium.page_source
+        assert '400 Inline audio exceeds duration limit.' in selenium.page_source
