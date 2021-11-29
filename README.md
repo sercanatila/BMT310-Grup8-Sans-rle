@@ -1,4 +1,4 @@
-# BMT310-Grup8-Sansurle
+# Sansurle
 Bu projede web sitesi üzerinden yüklenen video verilerinin içindeki uygunsuz kelimelerin
 ayrıştırılması ve sansürlenmesi hedeflenmiştir. Kişisel verilerin korunması kanunu doğrultusunda
 hiçbir dosya, görüntü, video ve ses kaydı kayıt altına alınamayacaktır. Web sitesinin güvenliği
